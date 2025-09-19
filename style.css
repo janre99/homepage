@@ -14,3 +14,32 @@
  section {
  	background: #4dd3af;
  }
+
+.czerwony {
+	color: red;
+}
+
+#szkolenie {
+	color:yellow;
+}
+
+a {
+	color: green;
+}
+
+section a {
+	color: inherit;
+}
+
+.my-article {
+	color: hotpink;
+}
+
+.my-article p {
+	background: #1460AA;
+	color: white;
+}
+
+.about {
+	color: #91177f
+}
