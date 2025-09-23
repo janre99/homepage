@@ -1,4 +1,12 @@
- h1 {
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	 box-sizing: inherit;
+}
+
+h1 {
  	color: darkgreen;
  }
 
@@ -13,6 +21,7 @@
 
  section {
  	background: #4dd3af;
+	padding: 16px;
  }
 
 .czerwony {
@@ -21,6 +30,7 @@
 
 #szkolenie {
 	color:yellow;
+	padding: 16px;
 }
 
 a {
@@ -42,4 +52,12 @@ section a {
 
 .about {
 	color: #91177f
+}
+
+footer{
+	padding: 16px;
+}
+
+header {
+	padding: 16px;
 }
