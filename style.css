@@ -59,5 +59,27 @@ footer{
 }
 
 header {
+}
+
+.navigation {
+	background: blue;
 	padding: 16px;
+}
+
+.navigation__link {
+	color: white;
+}
+
+.section {
+	background: #453e49;
+	margin-bottom: 16px;
+}
+
+.section__header{
+	color: #965353;
+	margin-left: 64px;
+}
+
+.section__header--special{
+	color: tomato;
 }

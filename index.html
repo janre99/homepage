@@ -11,14 +11,14 @@
 
 <body>
 	<header>
-		<nav>
-			<a href="index.html">Strona główna jest fajna</a>
-			<a href="nauka-html.html">Nauka html</a>
+		<nav class = "navigation">
+			<a class = "navigation__link" href="index.html">Strona główna</a>
+			<a class = "navigation__link" href="nauka-html.html">Nauka html</a>
 		</nav>
 	</header>
 	<main>
-		<header id="top">
-			<h1>Jan Repel - strona</h1>
+		<header class="page-header" id="top">
+			<h1 class="page-header__headeing page-header__heading--js">Jan Repel - strona</h1>
 			<img src="/ja.png" alt="Zdjęcie Jana Repela">
 		</header>
 		<section class="about">
@@ -34,10 +34,10 @@
 				Poczytaj więcej o nagrywaniu <a href="#szkolenie">szkolenia</a>
 			</p>
 		</section>
-		<section>
-			<h2>Notatki z WTF: Co ten frontend</h2>
+		<section class="section">
+			<h2 class="section__header">Notatki z WTF: Co ten frontend</h2>
 			<article class="my-article">
-				<h3>Jak tworzyc prawidłowego HTML'a?</h3>
+				<h3 class="section__header--special">Jak tworzyc prawidłowego HTML'a?</h3>
 				<p class="czerwony">
 					Tworzenie zgodne z czyms tam
 				</p>
@@ -57,6 +57,6 @@
 		<p>Strona domowa Janka R, cos pisze w stopce elo</p>
 		<a href="#top">Do góry</a>
 	</footer>
-	<script src="main.js"></script>
+	<script defer src="main.js"></script>
 </body>
 </html>
