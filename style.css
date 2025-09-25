@@ -6,6 +6,10 @@ html {
 	 box-sizing: inherit;
 }
 
+body{
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
 .header {
 	position: sticky;
 	top: 0;
@@ -14,6 +18,9 @@ html {
 .page-header {
 	color: tomato;
 	padding: 20px;
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: 0.25px;
 }
 
 .czerwony {
