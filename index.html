@@ -11,20 +11,22 @@
 
 <body>
 	<header class="header">
-		<nav class = "navigation">
-			<a class = "navigation__link" href="index.html">Strona główna</a>
-			<a class = "navigation__link" href="nauka-html.html">Nauka html</a>
+		<nav class="navigation">
+			<a class="navigation__link" href="index.html">Strona główna</a>
+			<a class="navigation__link" href="nauka-html.html">Nauka html</a>
 		</nav>
 	</header>
 	<main>
 		<header class="page-header" id="#top">
-			<h1 class="page-header__headeing page-header__heading--js">Jan Repel - strona</h1>
+			<h1 class="page-header__headeing page-header__heading--js"><span class="specialist">Jan Repel</span> - strona
+				główna</h1>
 			<img class="section__image" src="/ja.png" alt="Zdjęcie Jana Repela">
 		</header>
 		<section class="about">
 			<h2>Kim jestem?</h2>
-			<p >
-				Polak mały <b>długo</b> mozna pisac<br>tutaj ale elo benc. To jest napisane w ramach kursu <a href="https://cotenfrontend.pl" target="_blank">WTF</a> => Jestem osobą, która nieustannie poszukuje nowych
+			<p>
+				Polak mały <b>długo</b> mozna pisac<br>tutaj ale elo benc. To jest napisane w ramach kursu <a
+					href="https://cotenfrontend.pl" target="_blank">WTF</a> => Jestem osobą, która nieustannie poszukuje nowych
 				wyzwań i inspiracji, bo wierzę, że każdy dzień daje szansę na rozwój i odkrywanie czegoś nowego. Lubię uczyć się
 				i rozwijać, a przy tym cenię szczerość, autentyczność i prawdziwe relacje z innymi ludźmi. To, kim jestem,
 				kształtują moje doświadczenia, pasje oraz spotkania z osobami, które pojawiają się na mojej drodze i zostawiają
@@ -50,10 +52,65 @@
 				<h3 class="my-article_header">GIT</h3>
 				<p>to jest nowa zmiana na GITA</p>
 			</article>
-						<article class="my-article">
+			<article class="my-article">
 				<h3 class="my-article_header">JavaScript</h3>
 				<p class="my-article_content--js">testowy paragraf JS</p>
 			</article>
+		</section>
+
+		<section class="section">
+		<article class="my-article">
+			<h3 class="my-article_header">Moje ulubione znaczniki</h3>
+			<ul class="my-article__list">
+				<li>h1</li>
+				<li>ul</li>
+				<li>a</li>
+			</ul>
+		</article>
+
+		<article class="my-article">
+			<h3 class="my-article_header">kroki stworzenia plikow</h3>
+			<ol class="my-article__list">
+				<li>Otworz edytor</li>
+				<li>!+tab</li>
+				<li>zapisz plik</li>
+			</ol>
+
+			<dl>
+				<dt>h1</dt>
+				<dd>najwazniejszy na stronie</dd>
+				<dt>h2</dt>
+				<dd>rownie wazny</dd>
+			</dl>
+		</article>
+
+		<table>
+			<caption>Rozpiska WTF</caption>
+				<thead>
+					<tr>
+					<th>numer lekcji</th>	
+					<th>temat</th>	
+					<th>status</th>
+					</tr>
+					<tr>
+						<th>1</th>
+						<th>hello world</th>
+						<th>✅</th>
+					</tr>
+					<tr>
+						<th>2</th>
+						<th>narzedzia</th>
+						<th>✅</th>
+					<tr>	
+						<th>3</th>
+						<th>zadanie domowe</th>
+						<th>❌</th>
+					</tr>
+					</tr>
+				</thead>
+
+		</table>
+
 		</section>
 	</main>
 
@@ -62,5 +119,7 @@
 		<a class="footer__top-link" href="#top">Do góry</a>
 	</footer>
 	<script defer src="main.js"></script>
+	<script defer src="human.js"></script>
 </body>
+
 </html>
