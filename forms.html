@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="/style.css" rel="stylesheet" type="text/css">
+	<link href="/normalize.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+        <header class="page-header" id="top">
+            <h1 class="page-header__headeing page-header__heading--js" >FORMULARZE</h1>
+        </header>
+        <section>
+            <form>
+                <p>
+                    <label for="firstName">Imię</label>
+                    <input placeholder="Imię" value="Jan" id="firstName" type="text" name="firstName">
+                </p>
+                <p>
+                    <label for="lastName">Nazwisko</label>
+                    <input placeholder="naziwsko" id="lastName" type="text" name="lastName"/>
+                </p>
+
+                <fieldset>
+                    <legend>Dane adresowe:</legend>
+                    <p>
+                        <label for="street">Ulica</label>
+                        <input placeholder="ulica" id="street" type="text" name="street">
+                    </p>
+                     <p>
+                        <label for="city">Miasto</label>
+                        <input placeholder="twoje miasto" id="city" type="text" name="city">
+                    </p>
+                  
+                     <p>
+                        <label for="favNumber">Ulubiona liczba</label>
+                        <input placeholder="favNumber" id="favNumber" type="range" name="favNumber" min="0" max="100" step="10" value="100">  
+                    </p>
+                   
+                    <p>
+                        <label for="shirtSize">rozmiary koszulek</label>
+                        <select id="shirtSize"  name="shirtSize">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                        </select>
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>smaki lodów</legend>
+                    <p>
+                        <label><input name="icecream" type="radio" value="vanilla">Waniliowe</label>
+                    </p>
+                    <p>
+                        <label><input name="icecream" type="radio" value="chocolate">Czekoladowe</label>
+                    </p>                    
+                    <p>
+                        <label><input checked name="icecream" type="radio" value="strawberry">Truskawkowe</label>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>zespoły</legend>
+                    <p>
+                        <label><input name="band" type="checkbox" value="metallica">Metallica</label>
+                    </p>
+                    <p>
+                        <label><input name="band" type="checkbox" value="radiohead">Radiohead</label>
+                    </p>                    
+                    <p>
+                        <label><input checked name="band" type="checkbox" value="akcent">Akcent</label>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>

@@ -8,6 +8,8 @@ html {
 
 body{
 	font-family: Arial, Helvetica, sans-serif; 
+	background: #2A7B9B;
+background: radial-gradient(circle,rgba(42, 123, 155, 1) 0%, rgba(61, 155, 146, 1) 19%, rgba(66, 164, 143, 1) 38%, rgba(87, 199, 133, 1) 60%, rgba(188, 214, 99, 1) 84%, rgba(237, 221, 83, 1) 100%);
 }
 
 .header {
@@ -69,12 +71,36 @@ footer{
 }
 
 .navigation {
-	background: blue;
-	padding: 16px;
+	background: #98d2c2;
+	padding: 0 40px;
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	align-items: center;
+	transition: all 0.3s ease-in-out;
+	scroll-margin-top: 40px;
+	
 }
 
 .navigation__link {
 	color: white;
+	text-decoration: none;
+}
+
+.navigation__link:hover {
+	background: burlywood;
+}
+
+.navigation a {
+	display: block;
+	padding: 15px 20px;
+	transition: all 0.2s ease-in-out;
+}
+.navigation a:hover {
+	color: #806224;
+	transition: all 0.2s ease-in-out;
 }
 
 .section {
@@ -129,10 +155,9 @@ footer{
 
 table {
 	width: 100%;
-	text-align: center;
-}
-
-table caption {
-	margin-bottom: 2rem;
-	padding-left: 8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 24px;
 }

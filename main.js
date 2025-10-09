@@ -44,3 +44,44 @@ console.log(deathStar.name);
 
 deathStar.fire('Aldebaran');
 deathStar.fire('Zebra');
+
+
+const greet = (name, age) => {
+    const result = `Witaj ${name}! masz ${age} lat`;
+    return result;
+}
+
+const greeting = greet('Jan', 25);
+
+console.log(greet('Jan', 25));
+console.log(greeting);
+
+
+if('javasctip' != 'Java') {
+    console.log('JS to nie java')
+}
+
+if('javasctip' > 'Java') {
+    console.log('JS jest dluzsze')
+}
+
+if('2' === 2) {
+    console.log('to jest flasz wiec sie nie wyswietli')
+}
+if('2' == 2) {
+    console.log('to jest prawda  wiec sie wyswietli - nie sprawdza typeof i pomimo ze to string a drugie to number to bezz znaczenia')
+}
+
+if(2==='2') {
+    console.log('to jest prawda');
+} else {
+    console.log('to jest falsz');
+}
+
+let isGotuje = true;
+
+if (isGotuje){
+    console.log('to jest prawda');
+} else {
+    console.log('to jest falsz');
+}
