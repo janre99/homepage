@@ -1,3 +1,5 @@
+
+
 const firstName = "Jan Repel";
 const age = 25; 
 
@@ -85,3 +87,22 @@ if (isGotuje){
 } else {
     console.log('to jest falsz');
 }
+
+const button = document.querySelector('.page-header__button--js');
+console.log(button);
+
+const clickFunction = (e) => {
+    const header = document.querySelector('.page-header__heading--js')
+    header.innerHTML ="click, click"
+}
+
+button.addEventListener('click', clickFunction); 
+
+
+const hamburger = document.querySelector('.hamburger--js');
+console.log(hamburger);
+
+hamburger.addEventListener('click', () => {
+    const navigation = document.querySelector('.navigation--js');
+    navigation.classList.toggle('navigation--open');
+})
