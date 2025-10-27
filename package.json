@@ -2,7 +2,6 @@
   "name": "homepage",
   "version": "1.0.0",
   "description": "",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
@@ -22,6 +21,7 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.0",
     "parcel": "^2.16.0"
   }
 }

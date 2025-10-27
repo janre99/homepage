@@ -1,3 +1,5 @@
+$textColor: tomato;
+
 html {
 	box-sizing: border-box;
 }
@@ -77,10 +79,9 @@ section a {
 	align-items: flex-start;
 	font-size: 0.75rem;
 	width: 100%;
-}
 
-.my-article_header{
-	color: tomato;
+    &_header {
+    color: $textColor;
 	padding: 16px;
 	border-radius: 6px;
 	border: 1px solid black;
@@ -89,8 +90,12 @@ section a {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-}
+    }
+    &__list {
+	list-style-type: none;
+} 
 
+}
 
 .about {
 	color: #91177f
@@ -173,9 +178,6 @@ footer{
 	color: hotpink;
 }
 
-.my-article__list {
-	list-style-type: none;
-} 
 
 
 table {
