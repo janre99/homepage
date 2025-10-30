@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.0",
+    "cowsay": "^1.6.0",
     "parcel": "^2.16.0"
   }
 }

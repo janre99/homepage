@@ -213,6 +213,7 @@ table {
 }
 
 
+
 @media screen and (min-width: 768px) {
 	body {
 		background: #e1dbdb;
@@ -291,5 +292,10 @@ table {
 
 .hamburger {
 	display: none;
+}
+
+.page-header::before {
+    content: "🦉";
+    color: black;
 }
 }
