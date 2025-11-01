@@ -1,4 +1,4 @@
-
+import { calculate, myFavouriteColour } from "./calculate";
 
 const firstName = "Jan Repel";
 const age = 25; 
@@ -13,7 +13,7 @@ const contentJs = document.querySelector('.my-article_content--js')
 
 contentJs.innerHTML = 'jestem javascriptem'
 
-const calculate = myNumber => (myNumber+4)*7
+
 
 console.log(calculate(2));
 

@@ -1,3 +1,6 @@
+@import "components/section.scss";
+@import "../../node_modules/normalize.css/";
+
 $textColor: tomato;
 
 html {
@@ -35,14 +38,26 @@ background: radial-gradient(circle,rgba(42, 123, 155, 1) 0%, rgba(61, 155, 146, 
 	font-weight: 700;
 	letter-spacing: 0.25px;
 	margin-top: 0px;
-}
 
-.page-header__heading {
-	margin-top: 50px;
+	&__heading {
+		margin-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	}
+
+	&__button {
+		color: burlywood;
+		background: rgb(97, 57, 6);
+		font-weight: 300;
+		border-radius: 16px;
+		display: inline-block;
+		font-size: 1rem;
+		border: 0;
+		padding: 5px 15px;
+	}
 }
+
 
 .czerwony {
 	padding: 16px;
@@ -118,20 +133,11 @@ footer{
 	position: absolute;
 	top: 50px;
 	width: 100%;
-}
 
-.navigation__link {
-	color: white;
+	&__link {
+		color: white;
 	text-decoration: none;
-}
-
-
-.section {
-	
-	margin-bottom: 16px;
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
+	}
 }
 
 .section__header{
@@ -157,14 +163,12 @@ footer{
 	max-width: 768px;
 	margin: 0 auto;
 	margin-bottom: 50px;
-}
 
-.footer__content {
-	color: #949494;
-}
-
-.footer__top-link {
-	position: fixed;
+	&__content {
+		color: #949494;
+	}
+	&__top-link {
+		position: fixed;
 	bottom: 30px;
 	right: 50px;
 	color: tomato;
@@ -172,6 +176,7 @@ footer{
 	background: black;
 	display: block;
 	border-radius: 5px;
+	}
 }
 
 .specialist {
@@ -189,16 +194,7 @@ table {
 	gap: 24px;
 }
 
-.page-header__button {
-	color: burlywood;
-	background: rgb(97, 57, 6);
-	font-weight: 300;
-	border-radius: 16px;
-	display: inline-block;
-	font-size: 1rem;
-	border: 0;
-	padding: 5px 15px;
-}
+
 
 .hamburger {
 	padding: 4px;
@@ -227,28 +223,26 @@ table {
 		font-size: 2rem;
 	}
 
-	.my-article_header {
-			display: flex;
-			justify-content: center;
-			width: 100%;
-
-
-			
-	}
 
 	.my-article {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+
+		&_header{
+			display: flex;
+			justify-content: center;
+			width: 100%;
+		}
 	}
 
 	.section {
 		display: block;
 		font-size: 1rem;
-	}
 
-	.section__header {
-		font-size: 1.5rem;
+		&__header {
+			font-size: 1.5rem;
+		}
 	}
 
 	.czerwony {
@@ -269,25 +263,25 @@ table {
 	align-items: center;
 	transition: all 0.3s ease-in-out;
 	flex-direction: row;
-}
-.navigation a {
-	display: block;
+
+	& a{
+		display: block;
 	padding: 15px 20px;
 	transition: all 0.2s ease-in-out;
-}
+	}
 
-.navigation__link {
-	color: white;
+	&__link {
+			color: white;
 	text-decoration: none;
-}
+	}
+	&__link:hover {
+		background: burlywood;
+	}
 
-.navigation__link:hover {
-	background: burlywood;
-}
-
-.navigation a:hover {
-	color: #806224;
+	& a:hover {
+		color: #806224;
 	transition: all 0.2s ease-in-out;
+	}
 }
 
 .hamburger {
