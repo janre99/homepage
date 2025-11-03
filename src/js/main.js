@@ -1,4 +1,7 @@
 import { calculate, myFavouriteColour } from "./calculate";
+import * as nowaNazwa from "./calculate"
+
+console.log(nowaNazwa.calculate(2));
 
 const firstName = "Jan Repel";
 const age = 25; 
