@@ -1,5 +1,12 @@
 import { calculate, myFavouriteColour } from "./calculate";
 import * as nowaNazwa from "./calculate"
+import { differenceInDays } from "date-fns";
+
+const resultDay = differenceInDays(
+  new Date(2025, 10, 26, 0, 0),
+  new Date()
+)
+console.log(resultDay);
 
 console.log(nowaNazwa.calculate(2));
 

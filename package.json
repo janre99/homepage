@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/janre99/homepage#readme",
   "dependencies": {
+    "date-fns": "^4.1.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
