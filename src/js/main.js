@@ -1,6 +1,12 @@
 import { calculate, myFavouriteColour } from "./calculate";
 import * as nowaNazwa from "./calculate"
 import { differenceInDays } from "date-fns";
+import { differenceInHours } from "date-fns";
+
+const resultHours = differenceInHours(
+  new Date(2014, 6, 2, 19, 0),
+  new Date(2014, 6, 2, 6, 50)
+)
 
 const resultDay = differenceInDays(
   new Date(2025, 10, 26, 0, 0),
