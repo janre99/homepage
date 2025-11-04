@@ -3,6 +3,11 @@
 
 $textColor: tomato;
 
+:root {
+	--textColor: #000000;
+	--bacgroundColor: #99906e;
+}
+
 html {
 	box-sizing: border-box;
 }
@@ -87,7 +92,8 @@ section a {
 .my-article {
 	margin-bottom: 12px;
 	padding: 16px;
-	background: #e1dbdb;
+	background: var(--bacgroundColor);
+	color: var(--textColor);
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -97,11 +103,9 @@ section a {
 
     &_header {
     color: $textColor;
-	padding: 16px;
-	border-radius: 6px;
-	border: 1px solid black;
-	margin: 12px;
-	width: 250px;
+	padding: 12px;
+	margin: 6px;
+	width: 150px;
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -113,7 +117,8 @@ section a {
 }
 
 .about {
-	color: #91177f
+	color: #91177f;
+	background: #a49b7c;
 }
 
 footer{
@@ -141,7 +146,8 @@ footer{
 }
 
 .section__header{
-	color: #965353;
+	color: #733838;
+	background: var(--bacgroundColor);
 	margin-left: 64px;
 	width: 100%;
 	margin: 12px auto;
@@ -221,6 +227,7 @@ table {
 	}
 	.page-header {
 		font-size: 2rem;
+		background: var(--bacgroundColor);
 	}
 
 
@@ -228,11 +235,14 @@ table {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		
 
 		&_header{
 			display: flex;
 			justify-content: center;
+			align-self: center;
 			width: 100%;
+			background: #436c59;
 		}
 	}
 
