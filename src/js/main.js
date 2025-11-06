@@ -101,12 +101,9 @@ if (isGotuje){
 const button = document.querySelector('.page-header__button--js');
 console.log(button);
 
-const clickFunction = (e) => {
-    const header = document.querySelector('.page-header__heading--js')
-    header.innerHTML ="click, click"
-}
-
-button.addEventListener('click', clickFunction); 
+button.addEventListener('click', (e) => {
+    document.documentElement.style.setProperty('--backgroundColor', 'tomato');
+})
 
 
 const hamburger = document.querySelector('.hamburger--js');
