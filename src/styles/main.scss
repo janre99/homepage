@@ -1,5 +1,6 @@
 @import "components/section.scss";
 @import "../../node_modules/normalize.css/";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,399;1,399&display=swap');
 
 $textColor: tomato;
 
@@ -13,7 +14,6 @@ $textColor: tomato;
 	:root {
 		--textColor: #c8c8c8;
 		--backgroundColor: #191919;
-
 	}
 
 }
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Rubik', 'sans-serif';
 	background: #2A7B9B;
 	background: radial-gradient(circle, rgba(42, 123, 155, 1) 0%, rgba(61, 155, 146, 1) 19%, rgba(66, 164, 143, 1) 38%, rgba(87, 199, 133, 1) 60%, rgba(188, 214, 99, 1) 84%, rgba(237, 221, 83, 1) 100%);
 }
