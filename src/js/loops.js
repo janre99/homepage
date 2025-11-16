@@ -3,7 +3,7 @@ const elements = ['🦍', '🐕', '🫎', '🦌'];
 for (let i = 0; i < elements.length; i++) {
     console.log(`Index: ${i} element: ${elements[i]}`);
 }
-console.log(elements);
+
 
 let n = 3;
 
@@ -47,3 +47,5 @@ for (element of elements) {
 // a w konsoli jest wywoływana cała tablica elements. 
 // Gdybyśmy chcieli wyświetlić poszczególne elementy tablicy, 
 // to powinniśmy w konsoli wpisać console.log(element);
+
+
