@@ -1,6 +1,9 @@
 import { calculate, myFavouriteColour } from "./calculate";
 import * as nowaNazwa from "./calculate"
 import { differenceInDays } from "date-fns";
+import { hardware } from "./arrays.js";
+
+console.log(hardware[2]);
 
 const resultDay = differenceInDays(
   new Date(2025, 10, 26, 0, 0),
